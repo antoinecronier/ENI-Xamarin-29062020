@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tp4.Entities
+namespace Tp5.Entities
 {
     public class Tweet
 {
@@ -20,7 +20,6 @@ namespace Tp4.Entities
 			get { return data; }
 			set { data = value; }
 		}
-
 		public DateTime CreatedAt
 		{
 			get { return createdAt; }
